@@ -1,0 +1,10 @@
+{{#unless devoured}}
+<li class="list-group-item">
+    <button class="devour btn btn-danger" data-id="{{id}}">DEVOUR!</button>
+	<span class="pull-right">{{burger_name}}</span>
+</li>
+{{else}}
+<li class="list-group-item">
+	{{burger_name}}
+</li>
+{{/unless}}

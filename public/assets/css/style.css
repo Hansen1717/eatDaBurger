@@ -1,0 +1,28 @@
+body {
+    background: url("../img/burger-background-1.jpg")
+}
+
+.container {
+    margin-top: 5%;
+}
+.row {
+    margin-bottom: 2%;
+}
+
+.panel-default>.panel-heading {
+    color: cornsilk;
+    background-color: crimson;
+}
+
+.btn-danger {
+    background-color: crimson;
+    border-color: crimson;
+}
+
+#uneaten {
+    margin-left: 2%;
+}
+
+#devoured {
+    margin-right: 2%
+}
